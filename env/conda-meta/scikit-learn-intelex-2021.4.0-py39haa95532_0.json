@@ -1,0 +1,959 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "daal4py 2021.4.0.*",
+    "python >=3.9,<3.10.0a0",
+    "scikit-learn >=0.22"
+  ],
+  "extracted_package_dir": "C:\\Users\\roby_\\miniconda3\\pkgs\\scikit-learn-intelex-2021.4.0-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/PKG-INFO",
+    "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/SOURCES.txt",
+    "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/dependency_links.txt",
+    "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/requires.txt",
+    "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/top_level.txt",
+    "Lib/site-packages/sklearnex/__init__.py",
+    "Lib/site-packages/sklearnex/__main__.py",
+    "Lib/site-packages/sklearnex/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/__pycache__/__main__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/__pycache__/_config.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/__pycache__/_device_offload.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/__pycache__/_utils.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/__pycache__/dispatcher.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/_config.py",
+    "Lib/site-packages/sklearnex/_device_offload.py",
+    "Lib/site-packages/sklearnex/_utils.py",
+    "Lib/site-packages/sklearnex/cluster/__init__.py",
+    "Lib/site-packages/sklearnex/cluster/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/cluster/__pycache__/dbscan.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/cluster/__pycache__/k_means.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/cluster/dbscan.py",
+    "Lib/site-packages/sklearnex/cluster/k_means.py",
+    "Lib/site-packages/sklearnex/cluster/tests/__pycache__/test_dbscan.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/cluster/tests/__pycache__/test_kmeans.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/cluster/tests/test_dbscan.py",
+    "Lib/site-packages/sklearnex/cluster/tests/test_kmeans.py",
+    "Lib/site-packages/sklearnex/decomposition/__init__.py",
+    "Lib/site-packages/sklearnex/decomposition/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/decomposition/__pycache__/pca.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/decomposition/pca.py",
+    "Lib/site-packages/sklearnex/decomposition/tests/__pycache__/test_pca.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/decomposition/tests/test_pca.py",
+    "Lib/site-packages/sklearnex/dispatcher.py",
+    "Lib/site-packages/sklearnex/ensemble/__init__.py",
+    "Lib/site-packages/sklearnex/ensemble/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/ensemble/__pycache__/forest.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/ensemble/forest.py",
+    "Lib/site-packages/sklearnex/ensemble/tests/__pycache__/test_random_forest.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/ensemble/tests/test_random_forest.py",
+    "Lib/site-packages/sklearnex/glob/__main__.py",
+    "Lib/site-packages/sklearnex/glob/__pycache__/__main__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/glob/__pycache__/dispatcher.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/glob/dispatcher.py",
+    "Lib/site-packages/sklearnex/linear_model/__init__.py",
+    "Lib/site-packages/sklearnex/linear_model/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/linear_model/__pycache__/coordinate_descent.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/linear_model/__pycache__/linear.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/linear_model/__pycache__/logistic_path.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/linear_model/__pycache__/ridge.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/linear_model/coordinate_descent.py",
+    "Lib/site-packages/sklearnex/linear_model/linear.py",
+    "Lib/site-packages/sklearnex/linear_model/logistic_path.py",
+    "Lib/site-packages/sklearnex/linear_model/ridge.py",
+    "Lib/site-packages/sklearnex/linear_model/tests/__pycache__/test_linear.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/linear_model/tests/__pycache__/test_logreg.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/linear_model/tests/test_linear.py",
+    "Lib/site-packages/sklearnex/linear_model/tests/test_logreg.py",
+    "Lib/site-packages/sklearnex/manifold/__init__.py",
+    "Lib/site-packages/sklearnex/manifold/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/manifold/__pycache__/t_sne.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/manifold/t_sne.py",
+    "Lib/site-packages/sklearnex/manifold/tests/__pycache__/test_tsne.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/manifold/tests/test_tsne.py",
+    "Lib/site-packages/sklearnex/metrics/__init__.py",
+    "Lib/site-packages/sklearnex/metrics/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/metrics/__pycache__/pairwise.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/metrics/__pycache__/ranking.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/metrics/pairwise.py",
+    "Lib/site-packages/sklearnex/metrics/ranking.py",
+    "Lib/site-packages/sklearnex/metrics/tests/__pycache__/test_metrics.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/metrics/tests/test_metrics.py",
+    "Lib/site-packages/sklearnex/model_selection/__init__.py",
+    "Lib/site-packages/sklearnex/model_selection/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/model_selection/__pycache__/split.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/model_selection/split.py",
+    "Lib/site-packages/sklearnex/model_selection/tests/__pycache__/test_model_selection.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/model_selection/tests/test_model_selection.py",
+    "Lib/site-packages/sklearnex/neighbors/__init__.py",
+    "Lib/site-packages/sklearnex/neighbors/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/neighbors/__pycache__/knn_classification.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/neighbors/__pycache__/knn_regression.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/neighbors/__pycache__/knn_unsupervised.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/neighbors/knn_classification.py",
+    "Lib/site-packages/sklearnex/neighbors/knn_regression.py",
+    "Lib/site-packages/sklearnex/neighbors/knn_unsupervised.py",
+    "Lib/site-packages/sklearnex/neighbors/tests/__pycache__/test_neighbors.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/neighbors/tests/test_neighbors.py",
+    "Lib/site-packages/sklearnex/svm/__init__.py",
+    "Lib/site-packages/sklearnex/svm/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/svm/__pycache__/_common.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/svm/__pycache__/nusvc.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/svm/__pycache__/nusvr.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/svm/__pycache__/svc.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/svm/__pycache__/svr.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/svm/_common.py",
+    "Lib/site-packages/sklearnex/svm/nusvc.py",
+    "Lib/site-packages/sklearnex/svm/nusvr.py",
+    "Lib/site-packages/sklearnex/svm/svc.py",
+    "Lib/site-packages/sklearnex/svm/svr.py",
+    "Lib/site-packages/sklearnex/svm/tests/__pycache__/test_svm.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/svm/tests/test_svm.py",
+    "Lib/site-packages/sklearnex/tests/__pycache__/_models_info.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/tests/__pycache__/test_config.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/tests/__pycache__/test_memory_usage.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/tests/__pycache__/test_monkeypatch.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/tests/__pycache__/test_patching.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/tests/__pycache__/test_run_to_run_stability_tests.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/tests/_models_info.py",
+    "Lib/site-packages/sklearnex/tests/test_config.py",
+    "Lib/site-packages/sklearnex/tests/test_memory_usage.py",
+    "Lib/site-packages/sklearnex/tests/test_monkeypatch.py",
+    "Lib/site-packages/sklearnex/tests/test_patching.py",
+    "Lib/site-packages/sklearnex/tests/test_run_to_run_stability_tests.py",
+    "Lib/site-packages/sklearnex/tests/utils/__pycache__/_launch_algorithms.cpython-39.pyc",
+    "Lib/site-packages/sklearnex/tests/utils/_launch_algorithms.py",
+    ".nonadmin"
+  ],
+  "fn": "scikit-learn-intelex-2021.4.0-py39haa95532_0.conda",
+  "legacy_bz2_md5": "359d8187420be8eeb81c6f6bb61509e8",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\roby_\\miniconda3\\pkgs\\scikit-learn-intelex-2021.4.0-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "b3f36874b35aed454c6de317b0072b99",
+  "name": "scikit-learn-intelex",
+  "package_tarball_full_path": "C:\\Users\\roby_\\miniconda3\\pkgs\\scikit-learn-intelex-2021.4.0-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ad75bf40e87586b28d06431598ba8efc39a82e0c4ada18389515507cb5492d74",
+        "sha256_in_prefix": "ad75bf40e87586b28d06431598ba8efc39a82e0c4ada18389515507cb5492d74",
+        "size_in_bytes": 13404
+      },
+      {
+        "_path": "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "ddee4cec4d4ab91c46da3edc58d0c56604c569cf778084358390ca63dd954f9c",
+        "sha256_in_prefix": "ddee4cec4d4ab91c46da3edc58d0c56604c569cf778084358390ca63dd954f9c",
+        "size_in_bytes": 2145
+      },
+      {
+        "_path": "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "13c8658e26981e97e573e23469c58d3968c19ec041b4d46508bb0b400f53b46a",
+        "sha256_in_prefix": "13c8658e26981e97e573e23469c58d3968c19ec041b4d46508bb0b400f53b46a",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "Lib/site-packages/scikit_learn_intelex-2021.20211201.114824-py3.9.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "93328285258624460599d8f93f013adc736e3ff3d53a159f0f7db2b47f6b2fd4",
+        "sha256_in_prefix": "93328285258624460599d8f93f013adc736e3ff3d53a159f0f7db2b47f6b2fd4",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2631beae9ed68293bb15a31da07e439f4a0e711484771297459466dce4f093d8",
+        "sha256_in_prefix": "2631beae9ed68293bb15a31da07e439f4a0e711484771297459466dce4f093d8",
+        "size_in_bytes": 1333
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "cbfce82cd37e209ca0504a9a15ea4fea319847aaf84d06e57dca2d3932de671d",
+        "sha256_in_prefix": "cbfce82cd37e209ca0504a9a15ea4fea319847aaf84d06e57dca2d3932de671d",
+        "size_in_bytes": 1968
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac4bc28a099186284a8d5693f7502415631dfb03f102ac486e5b33eb4f0f279d",
+        "sha256_in_prefix": "ac4bc28a099186284a8d5693f7502415631dfb03f102ac486e5b33eb4f0f279d",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f9e2b3686660ee00fb8e9cb8610897b89108b85b5357bc1f5b48dc87c0cfd0a",
+        "sha256_in_prefix": "4f9e2b3686660ee00fb8e9cb8610897b89108b85b5357bc1f5b48dc87c0cfd0a",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__pycache__/_config.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e007f1dd1447ec0be35c3f077df4874b2f82339206be9fde80d3c5a0e360bab",
+        "sha256_in_prefix": "2e007f1dd1447ec0be35c3f077df4874b2f82339206be9fde80d3c5a0e360bab",
+        "size_in_bytes": 3163
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__pycache__/_device_offload.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "15c0950234ceeb03e258e8dbc16278bbafcef27db4ba135e225cc0be3b6ce5c0",
+        "sha256_in_prefix": "15c0950234ceeb03e258e8dbc16278bbafcef27db4ba135e225cc0be3b6ce5c0",
+        "size_in_bytes": 5029
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bba58e361528b1c359832b5ce40c9b47f8a03dac90c1f4cdf68b3b5023043c9",
+        "sha256_in_prefix": "9bba58e361528b1c359832b5ce40c9b47f8a03dac90c1f4cdf68b3b5023043c9",
+        "size_in_bytes": 1833
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/__pycache__/dispatcher.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fe7720fcaf6001ffc5b8314dfc849a67c43b2dba0a889009233e17ff8c68064",
+        "sha256_in_prefix": "8fe7720fcaf6001ffc5b8314dfc849a67c43b2dba0a889009233e17ff8c68064",
+        "size_in_bytes": 2734
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/_config.py",
+        "path_type": "hardlink",
+        "sha256": "5dbac456edde7837da5fdb4d2efa993afd446ab4f11d79100ef8b82ada65e301",
+        "sha256_in_prefix": "5dbac456edde7837da5fdb4d2efa993afd446ab4f11d79100ef8b82ada65e301",
+        "size_in_bytes": 3928
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/_device_offload.py",
+        "path_type": "hardlink",
+        "sha256": "0618b6f761d5ec25aec52c9e780d53ab3357abb303e91e241056dcfbee8d383b",
+        "sha256_in_prefix": "0618b6f761d5ec25aec52c9e780d53ab3357abb303e91e241056dcfbee8d383b",
+        "size_in_bytes": 6548
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "8353d3672a1f4c7f1d1fe7a46da481cf5cfece7916dadfa876d6c85e7048dc99",
+        "sha256_in_prefix": "8353d3672a1f4c7f1d1fe7a46da481cf5cfece7916dadfa876d6c85e7048dc99",
+        "size_in_bytes": 2840
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "37604718beb6e3e2850ab28a036fe861ed96143e4b60b39fc88d96ebe80a0b0a",
+        "sha256_in_prefix": "37604718beb6e3e2850ab28a036fe861ed96143e4b60b39fc88d96ebe80a0b0a",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b04eb662b5bf2c24b7605d0bcda723160ec83cad6e161d4ae7438b4b7b018ed",
+        "sha256_in_prefix": "5b04eb662b5bf2c24b7605d0bcda723160ec83cad6e161d4ae7438b4b7b018ed",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/__pycache__/dbscan.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccf5d00b4e6d814097ab6c4e8e58f8cebbfe3270bbc41e7efb1d556b4552dca8",
+        "sha256_in_prefix": "ccf5d00b4e6d814097ab6c4e8e58f8cebbfe3270bbc41e7efb1d556b4552dca8",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/__pycache__/k_means.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc48c71e66e9392f34414c5217b3355b8ce592c63380288556a79015842f72d1",
+        "sha256_in_prefix": "fc48c71e66e9392f34414c5217b3355b8ce592c63380288556a79015842f72d1",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/dbscan.py",
+        "path_type": "hardlink",
+        "sha256": "2e95d6fba98b71a2a07d6f80049e6b4957e373ff04504b81cac9f64041cf1758",
+        "sha256_in_prefix": "2e95d6fba98b71a2a07d6f80049e6b4957e373ff04504b81cac9f64041cf1758",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/k_means.py",
+        "path_type": "hardlink",
+        "sha256": "7ae9a989c5ed02079494716d13d90872fdf6c94be341d369646a1d07a2b4e24e",
+        "sha256_in_prefix": "7ae9a989c5ed02079494716d13d90872fdf6c94be341d369646a1d07a2b4e24e",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/tests/__pycache__/test_dbscan.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7d7e85a69f8fde85404d2f86ea4e60f242e0c85f78bcb9589bdc4ad891569f8",
+        "sha256_in_prefix": "c7d7e85a69f8fde85404d2f86ea4e60f242e0c85f78bcb9589bdc4ad891569f8",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/tests/__pycache__/test_kmeans.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "27270845422bd2cb03ed39cec48ed61471f0e82ed5b32dd64b6f9e6a8f437af1",
+        "sha256_in_prefix": "27270845422bd2cb03ed39cec48ed61471f0e82ed5b32dd64b6f9e6a8f437af1",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/tests/test_dbscan.py",
+        "path_type": "hardlink",
+        "sha256": "c0b6c526109f6af3272a3f6650e3442f2136b8ef4087c5d26bb7931f49813d3d",
+        "sha256_in_prefix": "c0b6c526109f6af3272a3f6650e3442f2136b8ef4087c5d26bb7931f49813d3d",
+        "size_in_bytes": 1236
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/cluster/tests/test_kmeans.py",
+        "path_type": "hardlink",
+        "sha256": "0cce0f181ca63194b4a8f3a83f26f189777ace553f43d2b46995f48a838b6eee",
+        "sha256_in_prefix": "0cce0f181ca63194b4a8f3a83f26f189777ace553f43d2b46995f48a838b6eee",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/decomposition/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bf610dcb98f77d7b2bf5b398e5a389aae0746ba012ffb632ad99fb7475013875",
+        "sha256_in_prefix": "bf610dcb98f77d7b2bf5b398e5a389aae0746ba012ffb632ad99fb7475013875",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/decomposition/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "64efa484ffd63c1e55b1c99da5070eaee9817c160561d17cc91e147d2ca64c8e",
+        "sha256_in_prefix": "64efa484ffd63c1e55b1c99da5070eaee9817c160561d17cc91e147d2ca64c8e",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/decomposition/__pycache__/pca.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff3ac5c5fde82c0099fb8183169faa90ca2068bb49e057a53495b3caf69939a9",
+        "sha256_in_prefix": "ff3ac5c5fde82c0099fb8183169faa90ca2068bb49e057a53495b3caf69939a9",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/decomposition/pca.py",
+        "path_type": "hardlink",
+        "sha256": "a812a1731f4a7f2bdfdd4f6da418a1fc55840ba5708adce360a88cf7d5fdc4ec",
+        "sha256_in_prefix": "a812a1731f4a7f2bdfdd4f6da418a1fc55840ba5708adce360a88cf7d5fdc4ec",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/decomposition/tests/__pycache__/test_pca.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1812ffa10d0e3ede5ac10ecb2c63a1425561fc8067a945a7ba7443e5baa900ff",
+        "sha256_in_prefix": "1812ffa10d0e3ede5ac10ecb2c63a1425561fc8067a945a7ba7443e5baa900ff",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/decomposition/tests/test_pca.py",
+        "path_type": "hardlink",
+        "sha256": "56aa5e7ec415fe7c821684c289e64c6a03f0cd7b6bc3edba090331aa699b92a9",
+        "sha256_in_prefix": "56aa5e7ec415fe7c821684c289e64c6a03f0cd7b6bc3edba090331aa699b92a9",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/dispatcher.py",
+        "path_type": "hardlink",
+        "sha256": "0537b6c039b93d825b61610d1760b7d22c07db14fac9d2fba20000c262513c65",
+        "sha256_in_prefix": "0537b6c039b93d825b61610d1760b7d22c07db14fac9d2fba20000c262513c65",
+        "size_in_bytes": 4648
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/ensemble/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c7ab6f630865ae9c22e27d488c7488ab45043a5bb3389fbd1519f5675e8de71f",
+        "sha256_in_prefix": "c7ab6f630865ae9c22e27d488c7488ab45043a5bb3389fbd1519f5675e8de71f",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/ensemble/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ef08514fd62a8016f877daea63e34fdce3ee252acc489e0ae36b4dc5ac7e296",
+        "sha256_in_prefix": "8ef08514fd62a8016f877daea63e34fdce3ee252acc489e0ae36b4dc5ac7e296",
+        "size_in_bytes": 253
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/ensemble/__pycache__/forest.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "591d5028bef8aa45aa58bf054435e52624a25fe06ea846642f88feeeb39e53c9",
+        "sha256_in_prefix": "591d5028bef8aa45aa58bf054435e52624a25fe06ea846642f88feeeb39e53c9",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/ensemble/forest.py",
+        "path_type": "hardlink",
+        "sha256": "4b35abca89287c454b52a609eb1246f98c801831170015cc6aede31ba290a2d3",
+        "sha256_in_prefix": "4b35abca89287c454b52a609eb1246f98c801831170015cc6aede31ba290a2d3",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/ensemble/tests/__pycache__/test_random_forest.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "010136e5d5c72f6ec24f2c9b01604ed20612ad258700ca87069bd5a1248d7052",
+        "sha256_in_prefix": "010136e5d5c72f6ec24f2c9b01604ed20612ad258700ca87069bd5a1248d7052",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/ensemble/tests/test_random_forest.py",
+        "path_type": "hardlink",
+        "sha256": "9193c5964935d9e4ba01edb3383d0969c006aa46437c123582fa7ddc5df0f253",
+        "sha256_in_prefix": "9193c5964935d9e4ba01edb3383d0969c006aa46437c123582fa7ddc5df0f253",
+        "size_in_bytes": 1966
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/glob/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "1c72c0065692cf7d9589ed66c2be1ec42685f11261981cd0354b6a2fd8e41408",
+        "sha256_in_prefix": "1c72c0065692cf7d9589ed66c2be1ec42685f11261981cd0354b6a2fd8e41408",
+        "size_in_bytes": 2507
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/glob/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "262f2173ba40e960df8a71efb43ac04656b8a407f2afad03e6c9414e2891e8a3",
+        "sha256_in_prefix": "262f2173ba40e960df8a71efb43ac04656b8a407f2afad03e6c9414e2891e8a3",
+        "size_in_bytes": 1751
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/glob/__pycache__/dispatcher.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c54eb5a1cd0aec62dd1f5afecb632afb7a8cb66c3b6c4a9dc4aeb8f304356a90",
+        "sha256_in_prefix": "c54eb5a1cd0aec62dd1f5afecb632afb7a8cb66c3b6c4a9dc4aeb8f304356a90",
+        "size_in_bytes": 2186
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/glob/dispatcher.py",
+        "path_type": "hardlink",
+        "sha256": "9609bb693006fe4c6701877397766829033e5949c1f55d36479e7db96a398b87",
+        "sha256_in_prefix": "9609bb693006fe4c6701877397766829033e5949c1f55d36479e7db96a398b87",
+        "size_in_bytes": 3063
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6cf113010403bc1fb46d9bf0091cbba8d19e2c108556b01cea7859c508a16e50",
+        "sha256_in_prefix": "6cf113010403bc1fb46d9bf0091cbba8d19e2c108556b01cea7859c508a16e50",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1417197dd21ff393d23c88174d1dfc9f9fbee584ad08c8726640cfa7724429b",
+        "sha256_in_prefix": "f1417197dd21ff393d23c88174d1dfc9f9fbee584ad08c8726640cfa7724429b",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/__pycache__/coordinate_descent.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ee45d5dee4eca03cbb14d9ee750d0b9af4948c64e01788ee5802d388dec5352",
+        "sha256_in_prefix": "9ee45d5dee4eca03cbb14d9ee750d0b9af4948c64e01788ee5802d388dec5352",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/__pycache__/linear.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "225cb4c6c73ee93309b8230973625ca56c45f40ba6ba4b8aafe79b1a5826001b",
+        "sha256_in_prefix": "225cb4c6c73ee93309b8230973625ca56c45f40ba6ba4b8aafe79b1a5826001b",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/__pycache__/logistic_path.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d29787375346e0f96e965d297bd56292f527f05f047e6f33eb51522d8a448c7f",
+        "sha256_in_prefix": "d29787375346e0f96e965d297bd56292f527f05f047e6f33eb51522d8a448c7f",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/__pycache__/ridge.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "80fcbd586314bfde403baf73e51bff14051a631117f081e8a0c373a1f0f772c3",
+        "sha256_in_prefix": "80fcbd586314bfde403baf73e51bff14051a631117f081e8a0c373a1f0f772c3",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/coordinate_descent.py",
+        "path_type": "hardlink",
+        "sha256": "d5c1da7b0993dd32b81e1331ffab070ae728aeca006dcc12e9d09ccb1dd3d4c2",
+        "sha256_in_prefix": "d5c1da7b0993dd32b81e1331ffab070ae728aeca006dcc12e9d09ccb1dd3d4c2",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/linear.py",
+        "path_type": "hardlink",
+        "sha256": "cc34aeddba9b8a6256de1842357e24b21e23f5f1a529f226a20768501765bd58",
+        "sha256_in_prefix": "cc34aeddba9b8a6256de1842357e24b21e23f5f1a529f226a20768501765bd58",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/logistic_path.py",
+        "path_type": "hardlink",
+        "sha256": "98be097d7d2b6c4244a3de7c63d66a169e7682799a431b9cee61475a8b05adff",
+        "sha256_in_prefix": "98be097d7d2b6c4244a3de7c63d66a169e7682799a431b9cee61475a8b05adff",
+        "size_in_bytes": 870
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/ridge.py",
+        "path_type": "hardlink",
+        "sha256": "929f24cb3f019ca6714a1a292b6e162dd0ec0f17f1edf4cf2a18c5e7c46a65b3",
+        "sha256_in_prefix": "929f24cb3f019ca6714a1a292b6e162dd0ec0f17f1edf4cf2a18c5e7c46a65b3",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/tests/__pycache__/test_linear.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5369d95e47a301d5507691c7654531a7e2d8456cf58393976d51afa41c8415ff",
+        "sha256_in_prefix": "5369d95e47a301d5507691c7654531a7e2d8456cf58393976d51afa41c8415ff",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/tests/__pycache__/test_logreg.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "458d2d2fa8051722ffa18b85977a808e263f22984ad8bc3c9758f5d1b9c691c6",
+        "sha256_in_prefix": "458d2d2fa8051722ffa18b85977a808e263f22984ad8bc3c9758f5d1b9c691c6",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/tests/test_linear.py",
+        "path_type": "hardlink",
+        "sha256": "e5c506490da396e656e45a07166da069a22d029b187bf6a1f4c79be05cba8c56",
+        "sha256_in_prefix": "e5c506490da396e656e45a07166da069a22d029b187bf6a1f4c79be05cba8c56",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/linear_model/tests/test_logreg.py",
+        "path_type": "hardlink",
+        "sha256": "7b14dd713b5998083cbaf60739fa49aea7a48af2a439ecaf70a4abbc5d4c4b7a",
+        "sha256_in_prefix": "7b14dd713b5998083cbaf60739fa49aea7a48af2a439ecaf70a4abbc5d4c4b7a",
+        "size_in_bytes": 1194
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/manifold/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f35355ddb7f1fa87777bea12190720597287d2e7e9d32c1e9b5ff835453ebf1",
+        "sha256_in_prefix": "1f35355ddb7f1fa87777bea12190720597287d2e7e9d32c1e9b5ff835453ebf1",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/manifold/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1c2426ee14052dd9fc176ef65f930e2c38913fc8621b6744ff8f2713e5d28df",
+        "sha256_in_prefix": "a1c2426ee14052dd9fc176ef65f930e2c38913fc8621b6744ff8f2713e5d28df",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/manifold/__pycache__/t_sne.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d58c0edea3e55bb83bbc9c9d44c4068bdabf0cb3ce85a7092ba729bb4b9448d7",
+        "sha256_in_prefix": "d58c0edea3e55bb83bbc9c9d44c4068bdabf0cb3ce85a7092ba729bb4b9448d7",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/manifold/t_sne.py",
+        "path_type": "hardlink",
+        "sha256": "c600d03cf98aa6ef71e940db6dc5408ff081b3896c91500b7a8bf1ada108e0f0",
+        "sha256_in_prefix": "c600d03cf98aa6ef71e940db6dc5408ff081b3896c91500b7a8bf1ada108e0f0",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/manifold/tests/__pycache__/test_tsne.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7189b19dc896303c295acc2dfb8487661fb32754493063ee3cebbba62141ae6b",
+        "sha256_in_prefix": "7189b19dc896303c295acc2dfb8487661fb32754493063ee3cebbba62141ae6b",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/manifold/tests/test_tsne.py",
+        "path_type": "hardlink",
+        "sha256": "844a4b8a042e11fc6094dd70913b9ff7647e1d52d58fffc39bfbdd654ea9e159",
+        "sha256_in_prefix": "844a4b8a042e11fc6094dd70913b9ff7647e1d52d58fffc39bfbdd654ea9e159",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eaee31095445620118cff9681d3330dd3b194c51eafd83e43ca871ca3f6f72a4",
+        "sha256_in_prefix": "eaee31095445620118cff9681d3330dd3b194c51eafd83e43ca871ca3f6f72a4",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aad2e4e72fafb302060205f247958efacab2409b4688ad731abac66db4f82853",
+        "sha256_in_prefix": "aad2e4e72fafb302060205f247958efacab2409b4688ad731abac66db4f82853",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/__pycache__/pairwise.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c375714e71cc38a4a1421a46a20ad91926173cd98251aa1c8b929e5922147b46",
+        "sha256_in_prefix": "c375714e71cc38a4a1421a46a20ad91926173cd98251aa1c8b929e5922147b46",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/__pycache__/ranking.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "173bb65c970cfabbf0c6c506f4be02a40413be00040c18ff26526a414658e104",
+        "sha256_in_prefix": "173bb65c970cfabbf0c6c506f4be02a40413be00040c18ff26526a414658e104",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/pairwise.py",
+        "path_type": "hardlink",
+        "sha256": "6f1bf081630545d255db9a791e7304c0a6ef6afce650b9584965a58375932d9a",
+        "sha256_in_prefix": "6f1bf081630545d255db9a791e7304c0a6ef6afce650b9584965a58375932d9a",
+        "size_in_bytes": 866
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/ranking.py",
+        "path_type": "hardlink",
+        "sha256": "e37fc0501d1b9156f6929d97489837d5e0debeb98b60b10d3bc8bbb1180beffd",
+        "sha256_in_prefix": "e37fc0501d1b9156f6929d97489837d5e0debeb98b60b10d3bc8bbb1180beffd",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/tests/__pycache__/test_metrics.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "413cae0bc15cbf2638dd5641c7481abcbcc5311e942dde9f6ee6be501f602cb4",
+        "sha256_in_prefix": "413cae0bc15cbf2638dd5641c7481abcbcc5311e942dde9f6ee6be501f602cb4",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/metrics/tests/test_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "02fef21f2adbca238f9795a59366210611de36015f856b36a4718f90a1310c3b",
+        "sha256_in_prefix": "02fef21f2adbca238f9795a59366210611de36015f856b36a4718f90a1310c3b",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/model_selection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aa9c75140785a13c5b795fbbe4bee339989e7e263753c450c70958ea888bd752",
+        "sha256_in_prefix": "aa9c75140785a13c5b795fbbe4bee339989e7e263753c450c70958ea888bd752",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/model_selection/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "306202dbc40e69f752d703af4a4b4222dd7041e1b2e5eb45dcddcc22ee13a8d8",
+        "sha256_in_prefix": "306202dbc40e69f752d703af4a4b4222dd7041e1b2e5eb45dcddcc22ee13a8d8",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/model_selection/__pycache__/split.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "29f8e250080dfbf685341ec6341197133ba083100afea0d65802d1eaf3ce9d1e",
+        "sha256_in_prefix": "29f8e250080dfbf685341ec6341197133ba083100afea0d65802d1eaf3ce9d1e",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/model_selection/split.py",
+        "path_type": "hardlink",
+        "sha256": "c433735af4fc3742e0a792bd60522092367a2938b79045e6ebb0be7836315987",
+        "sha256_in_prefix": "c433735af4fc3742e0a792bd60522092367a2938b79045e6ebb0be7836315987",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/model_selection/tests/__pycache__/test_model_selection.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f633b443601c6aa28bae98ae6148b027ae594cc4464bac50015761be59cbc233",
+        "sha256_in_prefix": "f633b443601c6aa28bae98ae6148b027ae594cc4464bac50015761be59cbc233",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/model_selection/tests/test_model_selection.py",
+        "path_type": "hardlink",
+        "sha256": "c37dee641f1a2d28a95b983fbd8840d44d4036e2d11ece77b8129db0fd3e0c38",
+        "sha256_in_prefix": "c37dee641f1a2d28a95b983fbd8840d44d4036e2d11ece77b8129db0fd3e0c38",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "29a77379b261e739584a562dfea207dd5fb121f5707ab1757bb7090e87b1e918",
+        "sha256_in_prefix": "29a77379b261e739584a562dfea207dd5fb121f5707ab1757bb7090e87b1e918",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2030d7ae178cc7a5b0b46bfb23ce77cec19817390b7b6d4c4b0b10e8ba21bcfc",
+        "sha256_in_prefix": "2030d7ae178cc7a5b0b46bfb23ce77cec19817390b7b6d4c4b0b10e8ba21bcfc",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/__pycache__/knn_classification.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "192a6c7330f5cbc11cc0143034166f919de5d5470dfa04744d02d1dc6e26b9e4",
+        "sha256_in_prefix": "192a6c7330f5cbc11cc0143034166f919de5d5470dfa04744d02d1dc6e26b9e4",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/__pycache__/knn_regression.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "776329f7230fe17d640669503ed19565530d477814aff8e8ffd99c703f698aa5",
+        "sha256_in_prefix": "776329f7230fe17d640669503ed19565530d477814aff8e8ffd99c703f698aa5",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/__pycache__/knn_unsupervised.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "92d66492feb510f2166331b6895de92808b6558965202845ab553f843104a455",
+        "sha256_in_prefix": "92d66492feb510f2166331b6895de92808b6558965202845ab553f843104a455",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/knn_classification.py",
+        "path_type": "hardlink",
+        "sha256": "78eeed9e61132802437f7e227f3f9697ba3470b8921d1ed5c449222570bdc5d3",
+        "sha256_in_prefix": "78eeed9e61132802437f7e227f3f9697ba3470b8921d1ed5c449222570bdc5d3",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/knn_regression.py",
+        "path_type": "hardlink",
+        "sha256": "148b5e33af0f9240cf556e091baf5969e6c41a33cd3477b98ca9c5cfd16bcf38",
+        "sha256_in_prefix": "148b5e33af0f9240cf556e091baf5969e6c41a33cd3477b98ca9c5cfd16bcf38",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/knn_unsupervised.py",
+        "path_type": "hardlink",
+        "sha256": "dcc09f2e5a017cb6e8c0a2a7b0c8afea87a15ec8a928a8b025d81fac8810e859",
+        "sha256_in_prefix": "dcc09f2e5a017cb6e8c0a2a7b0c8afea87a15ec8a928a8b025d81fac8810e859",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/tests/__pycache__/test_neighbors.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "38b8e3e7504742c2740a4987a7100871b140bd32961792514abd0f3c72605911",
+        "sha256_in_prefix": "38b8e3e7504742c2740a4987a7100871b140bd32961792514abd0f3c72605911",
+        "size_in_bytes": 1401
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/neighbors/tests/test_neighbors.py",
+        "path_type": "hardlink",
+        "sha256": "84e6cf6ea8cbc133f9fba362757da655518aa7f7cae615d2ba18c679c5ae4a1b",
+        "sha256_in_prefix": "84e6cf6ea8cbc133f9fba362757da655518aa7f7cae615d2ba18c679c5ae4a1b",
+        "size_in_bytes": 1805
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c2b62487783c56ab84a8c592b9267d45f3aadea359821666d1fd7787ec0ad53c",
+        "sha256_in_prefix": "c2b62487783c56ab84a8c592b9267d45f3aadea359821666d1fd7787ec0ad53c",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f98537b8fafd53f2d4fb64cdd679abb2526e5f3a7ba59ae3471da5d82e20fa4",
+        "sha256_in_prefix": "0f98537b8fafd53f2d4fb64cdd679abb2526e5f3a7ba59ae3471da5d82e20fa4",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/__pycache__/_common.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "46553ecdf1bcdcfd2a2add87ca93960bbdd93b5e742e2efcdc4f2d6c6f99cb1e",
+        "sha256_in_prefix": "46553ecdf1bcdcfd2a2add87ca93960bbdd93b5e742e2efcdc4f2d6c6f99cb1e",
+        "size_in_bytes": 3995
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/__pycache__/nusvc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a1c6b91e7f4818952583cd159bfdede9dd72f0e49fbe6dd59f819d46637b063",
+        "sha256_in_prefix": "6a1c6b91e7f4818952583cd159bfdede9dd72f0e49fbe6dd59f819d46637b063",
+        "size_in_bytes": 4270
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/__pycache__/nusvr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "edc68e95de929226019aaef4e253b3022e1bc4c7fef0add187a6d73cf5cb7a7d",
+        "sha256_in_prefix": "edc68e95de929226019aaef4e253b3022e1bc4c7fef0add187a6d73cf5cb7a7d",
+        "size_in_bytes": 2467
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/__pycache__/svc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "56a49852dbbdde9663a64c35b17ba85d93b431d08c5d59c4f75df0b11991e1e5",
+        "sha256_in_prefix": "56a49852dbbdde9663a64c35b17ba85d93b431d08c5d59c4f75df0b11991e1e5",
+        "size_in_bytes": 4731
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/__pycache__/svr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1f2d9567075c06e5214c4fdd0861365fb23ddf0d124730a20b722053e0b27b5",
+        "sha256_in_prefix": "d1f2d9567075c06e5214c4fdd0861365fb23ddf0d124730a20b722053e0b27b5",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/_common.py",
+        "path_type": "hardlink",
+        "sha256": "e2d54d0e6d7f52707ac3aca9684f60e27042f2c6c7b6bca07f01ffeef5957c4d",
+        "sha256_in_prefix": "e2d54d0e6d7f52707ac3aca9684f60e27042f2c6c7b6bca07f01ffeef5957c4d",
+        "size_in_bytes": 5817
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/nusvc.py",
+        "path_type": "hardlink",
+        "sha256": "04c031534c9ebe51669286c97d044d2ff0536fefb0411fc24d66605cab5757d1",
+        "sha256_in_prefix": "04c031534c9ebe51669286c97d044d2ff0536fefb0411fc24d66605cab5757d1",
+        "size_in_bytes": 5454
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/nusvr.py",
+        "path_type": "hardlink",
+        "sha256": "550ca481e2eb1dbd09277fd727b791a5f77a264fd3075b1ed061fa52162f18a0",
+        "sha256_in_prefix": "550ca481e2eb1dbd09277fd727b791a5f77a264fd3075b1ed061fa52162f18a0",
+        "size_in_bytes": 2990
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/svc.py",
+        "path_type": "hardlink",
+        "sha256": "adb174aefdb27d0c08fea89d5b1518e6e3a9a9aa3c53abba09102d4daa75e886",
+        "sha256_in_prefix": "adb174aefdb27d0c08fea89d5b1518e6e3a9a9aa3c53abba09102d4daa75e886",
+        "size_in_bytes": 6369
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/svr.py",
+        "path_type": "hardlink",
+        "sha256": "212bca7af2ba802e54b60b5cbccc705351ec6472628ddb5355986af57865b3db",
+        "sha256_in_prefix": "212bca7af2ba802e54b60b5cbccc705351ec6472628ddb5355986af57865b3db",
+        "size_in_bytes": 2990
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/tests/__pycache__/test_svm.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "601a5ac482f92b156756d7ef907a7d2d3011f98dc899d732ec4a5ef60cce636b",
+        "sha256_in_prefix": "601a5ac482f92b156756d7ef907a7d2d3011f98dc899d732ec4a5ef60cce636b",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/svm/tests/test_svm.py",
+        "path_type": "hardlink",
+        "sha256": "0f1dcc7e0a6ecbe2aa0fc79a1122add809811086c5591a347d1a70cc296674dd",
+        "sha256_in_prefix": "0f1dcc7e0a6ecbe2aa0fc79a1122add809811086c5591a347d1a70cc296674dd",
+        "size_in_bytes": 2626
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/__pycache__/_models_info.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7720e55f886fb3f71722268db4398bf895a6f191164b9089d8c72b94e771362",
+        "sha256_in_prefix": "a7720e55f886fb3f71722268db4398bf895a6f191164b9089d8c72b94e771362",
+        "size_in_bytes": 2226
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/__pycache__/test_config.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "40b501d5ffeac6a990b786123421c9d35e9e548ce514a4a2c8b585073137ea32",
+        "sha256_in_prefix": "40b501d5ffeac6a990b786123421c9d35e9e548ce514a4a2c8b585073137ea32",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/__pycache__/test_memory_usage.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "daa25ee1b362102271ea51a5340b1d37f9f407822720e0482d636c7f6430379d",
+        "sha256_in_prefix": "daa25ee1b362102271ea51a5340b1d37f9f407822720e0482d636c7f6430379d",
+        "size_in_bytes": 3754
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/__pycache__/test_monkeypatch.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a64e773f7c8069362e66ac321d8c3f2da9c2e9e47f004f3f9e93fc1a698d98df",
+        "sha256_in_prefix": "a64e773f7c8069362e66ac321d8c3f2da9c2e9e47f004f3f9e93fc1a698d98df",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/__pycache__/test_patching.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "163205e876bc843f1e081b9f16f70f592c0d17663dd295fd53341cb1b4d61764",
+        "sha256_in_prefix": "163205e876bc843f1e081b9f16f70f592c0d17663dd295fd53341cb1b4d61764",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/__pycache__/test_run_to_run_stability_tests.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "753f2ddfb5fa98020bb4a28feeb55f98a821834de720973be3fb82a9b635e13d",
+        "sha256_in_prefix": "753f2ddfb5fa98020bb4a28feeb55f98a821834de720973be3fb82a9b635e13d",
+        "size_in_bytes": 7456
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/_models_info.py",
+        "path_type": "hardlink",
+        "sha256": "b4249c24042c9c220dc922928fca7aa352eeeb5172f91ff99cd0eba9794c9d01",
+        "sha256_in_prefix": "b4249c24042c9c220dc922928fca7aa352eeeb5172f91ff99cd0eba9794c9d01",
+        "size_in_bytes": 4406
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "13ec696c8b4fac22ca0016303ad8b8c9d733ed1f4057e69b4978cd6e3a04dc8a",
+        "sha256_in_prefix": "13ec696c8b4fac22ca0016303ad8b8c9d733ed1f4057e69b4978cd6e3a04dc8a",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/test_memory_usage.py",
+        "path_type": "hardlink",
+        "sha256": "17faa16558e737a75fa26653840ff6dd273fcba7434f11691aa0dba7bcdec4a6",
+        "sha256_in_prefix": "17faa16558e737a75fa26653840ff6dd273fcba7434f11691aa0dba7bcdec4a6",
+        "size_in_bytes": 4681
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/test_monkeypatch.py",
+        "path_type": "hardlink",
+        "sha256": "9e0cb9230e3a2defdeec6496925d271ed452926b77d2cb03685bc2be5ddeb8a9",
+        "sha256_in_prefix": "9e0cb9230e3a2defdeec6496925d271ed452926b77d2cb03685bc2be5ddeb8a9",
+        "size_in_bytes": 4789
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/test_patching.py",
+        "path_type": "hardlink",
+        "sha256": "a319b6ad0f955b566a87f7f46db14ca437b26f6db3dcca9af2d5699fa83f557f",
+        "sha256_in_prefix": "a319b6ad0f955b566a87f7f46db14ca437b26f6db3dcca9af2d5699fa83f557f",
+        "size_in_bytes": 2773
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/test_run_to_run_stability_tests.py",
+        "path_type": "hardlink",
+        "sha256": "3b28b1eb7ae7583ec1d09a4d45b596a4d4b30472c1d8e3bea6f8e261e1e10ce3",
+        "sha256_in_prefix": "3b28b1eb7ae7583ec1d09a4d45b596a4d4b30472c1d8e3bea6f8e261e1e10ce3",
+        "size_in_bytes": 13724
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/utils/__pycache__/_launch_algorithms.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f3a44e89c1cfff468e695977949c165d37f8bc7f33c95b937ee1fc807871af5",
+        "sha256_in_prefix": "5f3a44e89c1cfff468e695977949c165d37f8bc7f33c95b937ee1fc807871af5",
+        "size_in_bytes": 3014
+      },
+      {
+        "_path": "Lib/site-packages/sklearnex/tests/utils/_launch_algorithms.py",
+        "path_type": "hardlink",
+        "sha256": "4194f8218ff50197539d29d9d886814f7249790cdf034c467c671d6f1c32fa06",
+        "sha256_in_prefix": "4194f8218ff50197539d29d9d886814f7249790cdf034c467c671d6f1c32fa06",
+        "size_in_bytes": 3778
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "scikit-learn-intelex",
+  "sha256": "99c90a6cdeeafbf51b8db75e65f3e99fcea4d5fc9a99b7b5b02dae9225621076",
+  "size": 68175,
+  "subdir": "win-64",
+  "timestamp": 1638380909875,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/scikit-learn-intelex-2021.4.0-py39haa95532_0.conda",
+  "version": "2021.4.0"
+}

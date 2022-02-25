@@ -1,0 +1,78 @@
+{
+  "build": "haa95532_729",
+  "build_number": 729,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "tbb 2021.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\roby_\\miniconda3\\pkgs\\dal-2021.4.0-haa95532_729",
+  "features": "",
+  "files": [
+    "Library/bin/onedal.1.dll",
+    "Library/bin/onedal_core.1.dll",
+    "Library/bin/onedal_dpc.1.dll",
+    "Library/bin/onedal_sequential.1.dll",
+    "Library/bin/onedal_thread.1.dll",
+    ".nonadmin"
+  ],
+  "fn": "dal-2021.4.0-haa95532_729.conda",
+  "legacy_bz2_md5": "45ea7f3d3fe7f54816f3f3340f057515",
+  "license": "Intel Simplified Software License",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "C:\\Users\\roby_\\miniconda3\\pkgs\\dal-2021.4.0-haa95532_729",
+    "type": 1
+  },
+  "md5": "87f92801c85c56932a6d07bb8f40c5d3",
+  "name": "dal",
+  "package_tarball_full_path": "C:\\Users\\roby_\\miniconda3\\pkgs\\dal-2021.4.0-haa95532_729.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/onedal.1.dll",
+        "path_type": "hardlink",
+        "sha256": "f1a97d1cc5648ee459cd9e848dcdc2f89ca35efd140ab8aebfdf03c27be1c587",
+        "sha256_in_prefix": "f1a97d1cc5648ee459cd9e848dcdc2f89ca35efd140ab8aebfdf03c27be1c587",
+        "size_in_bytes": 7727632
+      },
+      {
+        "_path": "Library/bin/onedal_core.1.dll",
+        "path_type": "hardlink",
+        "sha256": "790f7aff3081bac5d80e621990e556f2adbacd00cf9d279ae77abb89625ead71",
+        "sha256_in_prefix": "790f7aff3081bac5d80e621990e556f2adbacd00cf9d279ae77abb89625ead71",
+        "size_in_bytes": 95597584
+      },
+      {
+        "_path": "Library/bin/onedal_dpc.1.dll",
+        "path_type": "hardlink",
+        "sha256": "cbd65239c075238350fd2f6fde1c794a4f317fa38f741f63c96524816f12bd4e",
+        "sha256_in_prefix": "cbd65239c075238350fd2f6fde1c794a4f317fa38f741f63c96524816f12bd4e",
+        "size_in_bytes": 104814096
+      },
+      {
+        "_path": "Library/bin/onedal_sequential.1.dll",
+        "path_type": "hardlink",
+        "sha256": "ccb1bc09e31e2c55c2fa1f2bbee47d8fb320340420a41a731d5c827945fa0fcb",
+        "sha256_in_prefix": "ccb1bc09e31e2c55c2fa1f2bbee47d8fb320340420a41a731d5c827945fa0fcb",
+        "size_in_bytes": 28740112
+      },
+      {
+        "_path": "Library/bin/onedal_thread.1.dll",
+        "path_type": "hardlink",
+        "sha256": "5574dd2a827c5e4085a712a1ce249f8cae03e90f2e13fab31734c643fb9bb5aa",
+        "sha256_in_prefix": "5574dd2a827c5e4085a712a1ce249f8cae03e90f2e13fab31734c643fb9bb5aa",
+        "size_in_bytes": 33624080
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c43ddc79dc5df1f196387af46f91e181fa19caf2acbba1bc1cb5ce84006af49e",
+  "size": 25718353,
+  "subdir": "win-64",
+  "timestamp": 1634546700387,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/dal-2021.4.0-haa95532_729.conda",
+  "version": "2021.4.0"
+}

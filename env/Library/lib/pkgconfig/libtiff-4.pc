@@ -1,0 +1,11 @@
+prefix=C:/Users/roby_/Desktop/project1/env/Library
+exec_prefix=C:/Users/roby_/Desktop/project1/env/Library
+libdir=C:/Users/roby_/Desktop/project1/env/Library/lib
+includedir=C:/Users/roby_/Desktop/project1/env/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.2.0
+Libs: -LC:/Users/roby_/Desktop/project1/env/Library/lib -ltiff
+Libs.private: 
+Cflags: -IC:/Users/roby_/Desktop/project1/env/Library/include
